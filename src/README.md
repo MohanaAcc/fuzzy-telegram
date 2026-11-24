@@ -48,3 +48,7 @@ The application uses a simple data model with meaningful identifiers:
    - Grade level
 
 All data is stored in memory, which means data will be reset when the server restarts.
+
+Activity definitions are loaded from `activities.json` when the application starts. Changes to
+activity definitions in that file take effect after restarting the server; signup changes remain
+in memory and are reset when the server restarts.
